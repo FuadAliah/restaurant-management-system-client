@@ -1,7 +1,6 @@
-import React from 'react';
 import { Container, Typography } from '@mui/material';
 
-const FullPageLayout = () => {
+const Full = () => {
   return (
     <Container maxWidth="lg" style={{ padding: '20px' }}>
       <Typography variant="h4" gutterBottom>
@@ -14,4 +13,4 @@ const FullPageLayout = () => {
   );
 };
 
-export default FullPageLayout;
+export default Full;

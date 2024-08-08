@@ -1,0 +1,44 @@
+.drawer {
+	display: flex;
+
+	.logo-container {
+		margin: 1.35rem;
+	}
+
+	.app-bar {
+		margin-left: unset;
+		margin-inline-start: 280px;
+	}
+
+	.list {
+		margin-top: 0.5rem !important;
+		margin-inline: 1rem !important;
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+
+		.item {
+			border-radius: 0.25rem;
+
+			&.closed {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 3rem;
+			}
+
+			&.active {
+				background-color: #fff500;
+				color: #181818;
+			}
+
+			.list-icon {
+				min-width: 3rem;
+
+				&.closed {
+					min-width: unset;
+				}
+			}
+		}
+	}
+}

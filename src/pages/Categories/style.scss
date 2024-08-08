@@ -1,0 +1,24 @@
+@import "../../sass/variables";
+
+.categories-page {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+
+	.data-grid {
+		background-color: $white;
+
+		.header {
+			background-color: $grey300;
+			color: $black;
+		}
+	}
+
+	.add {
+		margin-inline-start: 0.75rem;
+	}
+
+	.css-1rdug8g-MuiToolbar-root-MuiTablePagination-toolbar {
+		border-bottom: 0 !important;
+	}
+}
